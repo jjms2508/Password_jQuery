@@ -1,0 +1,94 @@
+
+body{
+    /*background-image: url(../img/Fondo_productos_form.png);*/
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+section{    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 300px;
+}
+
+.fondo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    background-color: #EAEAEA;
+    border-radius: 20px;
+    padding: 1px 0px;
+}
+
+.titulo_producto{
+    border-radius: 20px 20px 0px 0px ;
+    width: 100%;
+    padding: 0px 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Fraunces';
+}
+
+.centrar_boton{
+    text-align: center;
+}
+
+.estilo_boton{
+    background-color: #0E8784;
+    border-radius: 10px;
+    color: #FEFCF7;
+    font-family: 'Fraunces';
+    padding: 10px;
+    text-transform: uppercase;
+}
+.estilo_boton:hover{
+    background-color: #66D2CF;
+}/*cambio de color del boton cuando pasa el cursor*/
+.estilo_boton:checked{
+    background-color: #003333;
+    color: #FEFCF7;
+}
+
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+div{    
+    font-family: 'Barlow';
+}
+input{
+    margin-top: 15px;
+    font-family: 'Barlow';
+}
+
+h4{
+    color: #0E8784;
+}
+#ingreso{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'Fraunces';
+}
+.alerta{
+    align-items: flex-start;
+    color: #d93025;
+    display: flex;
+    font-size: 12px;
+    line-height: normal;
+    margin-top: 2px;
+}
+.formulario{
+    margin: 20px;
+}
+
+.linea_separadora{
+    background-color: black;
+    height: 1px;
+}
+span{
+    color: transparent;
+}
