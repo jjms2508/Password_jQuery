@@ -1,2 +1,3 @@
 # Password_jQuery
-Aleta de ingreso de contraseña a tiempo real por JQuery
+
+Formulario de registro con aleta de ingreso de contraseña a tiempo real por JQuery.
